@@ -1,0 +1,5 @@
+m1 = float(input('Digite a altura em metros: '))
+m2 = float(input('Digite a largura em metros: '))
+print('Se a parede possui \033[31m{}\033[m de altura e \033[32m{}\033[m de largura, logo:'.format(m1, m2))
+print('Sua área é \033[33m{:.2f}m²\033[m'.format(m1*m2))
+print('Será necessário \033[34m{:.2f}\033[m litro(s) de tinta para pinta-lá.'.format((m1*m2)/2))
